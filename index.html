@@ -88,12 +88,12 @@
                                 </div>
                                 <div class="col-md-4 main-menu-container">
                                     <ul class="main-menu">
-                                        <li class="current-menu-item"><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Brands</a></li>
-                                        <li><a href="#">The Circle</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li class="current-menu-item"><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="brands.html">Brands</a></li>
+                                        <li><a href="category.html">The Circle</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -300,8 +300,10 @@
 
     <!-- Home where cann is meets style sec -->
     <section class="cann-meet">
-        <div class="cann-meet-header" style="background-image: url('assets/images/cann-meet-bg.jpg');">
-            <h3 class="lslg text-center">Where cannabis meets style</h3>
+        <div class="cann-meet-header-container" style="background-image: url('assets/images/bg-pattern.png');">
+            <div class="cann-meet-header">
+                <h3 class="lslg text-center">Where cannabis meets style</h3>
+            </div>
         </div>
         <div class="kantoka-mission" style="background-image: url('assets/images/kantoka-mission-bg.jpg')">
             <div class="kantoka-mission-content">
@@ -315,24 +317,26 @@
 
 
     <!-- Home join circle -->
-    <section class="join-circle" style="background-image: url('assets/images/join-circle-bg.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <div class="row">
-                        <div class="col-md-5 join-circle-content">
-                            <p>
-                                As a thank you for signing up, we'e giving away some cool products to some <span>lucky individuals.</span>
-                            </p>
-                            <form class="form my-2 my-lg-0">
-                                <input class="form-control mr-sm-2" type="text" placeholder="Email Address" aria-label="Search">
-                                <button class="btn btn-block" type="submit">Join the circle</button>
-                            </form>
-                        </div>
-                        <div class="col-md-6 offset-md-1">
-                            <h1 class="join-circle-title">
-                                Join the circle
-                            </h1>
+    <section class="join-circle" style="background-image: url('assets/images/bg-pattern.png');">
+        <div class="join-circle-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="row">
+                            <div class="col-md-5 join-circle-content">
+                                <p>
+                                    As a thank you for signing up, we'e giving away some cool products to some <span>lucky individuals.</span>
+                                </p>
+                                <form class="form my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Email Address" aria-label="Search">
+                                    <button class="btn btn-block" type="submit">Join the circle</button>
+                                </form>
+                            </div>
+                            <div class="col-md-6 offset-md-1">
+                                <h1 class="join-circle-title">
+                                    Join the circle
+                                </h1>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -342,7 +346,7 @@
 
 
     <!-- Home Contact form -->
-    <section class="home-contact-form">
+    <section class="home-contact-form" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -354,9 +358,11 @@
                                 <div class="col-sm-6 offset-sm-3">
                                     <select class="form-control custom-select">
                                         <option selected>Tell Us Who You Are</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                        <option value="licensed-producer">Licensed Producer</option>
+                                        <option value="cannabis-brand">Cannabis Brand</option>
+                                        <option value="retail-store">Retail Store</option>
+                                        <option value="clinic">Clinic</option>
+                                        <option value="other">Other</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-6">
