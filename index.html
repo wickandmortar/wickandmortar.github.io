@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Kantoka</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="auth-menu">
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Login <img src="assets/images/user.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="kantoka-nav">
+                        <div class="row">
+                            <div class="col-lg-8 col-6">
+                                <div class="logo-and-search">
+                                    <div class="logo">
+                                        <img src="assets/images/logo.png" alt="">
+                                    </div>
+                                    <div class="header_search_area">
+                                        <form class="form-inline my-2 my-lg-0">
+                                            <input class="form-control mr-sm-2" type="text" placeholder="What are you looking for today?..." aria-label="Search">
+                                            <button class="btn btn-sm" type="submit">Search</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-lg-4 col-6 text-right" style="display: flex;justify-content: flex-end;align-items: center;">
+                                <div class="navigations">
+                                    <div class="nav-button" id="nav-button">
+                                        <span class="nav_button_bar"></span>
+                                        <span class="nav_button_bar"></span>
+                                        <span class="nav_button_bar"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="nav-megamenu" id="nav-megamenu">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="menu-featured-item lg" style="background-image: url('https://via.placeholder.com/800x800')">
+                                                <div class="menu-featured-item-content">
+                                                    <h4>Featured content goes here (2 lines max)</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 menu-featured-item-sm-container">
+                                            <div class="menu-featured-item sm" style="background-image: url('https://via.placeholder.com/800x800')">
+                                                <div class="menu-featured-item-content">
+                                                    <h4>Featured content (1 line) Featured content (1 line)</h4>
+                                                </div>
+                                            </div>
+                                            <div class="menu-featured-item sm" style="background-image: url('https://via.placeholder.com/800x800')">
+                                                <div class="menu-featured-item-content">
+                                                    <h4>Featured content (1 line)</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 main-menu-container">
+                                    <ul class="main-menu">
+                                        <li class="current-menu-item"><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Brands</a></li>
+                                        <li><a href="#">The Circle</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Slider -->
+    <div class="slider">
+        <div id="main-carouse" class="carousel slide carousel-fade" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+                <li data-target="#main-carouse" data-slide-to="0" class="active">01</li>
+                <li data-target="#main-carouse" data-slide-to="1">02</li>
+                <li data-target="#main-carouse" data-slide-to="2">03</li>
+            </ol>
+
+            <div class="carousel-inner">
+                <!-- carousel 1 -->
+                <div class="carousel-item active">
+                    <div class="slider-item" style="background-image: url('assets/images/slider_bg.png')">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-10 col-lg-6">
+                                    <h1>Welcome to the world of kantoka</h1>
+                                    <h4>Something for Everyone</h4>
+                                    <a href="#" class="btn">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="assets/images/slider.jpg" alt="">
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- carousel 2 -->
+                <div class="carousel-item">
+                    <div class="slider-item" style="background-image: url('assets/images/slider_bg.png')">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-10 col-lg-6">
+                                    <h1>Welcome to the world of kantoka 2</h1>
+                                    <h4>Something for Everyone</h4>
+                                    <a href="#" class="btn">Learn More</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- carousel 3 -->
+                <div class="carousel-item">
+                    <div class="slider-item" style="background-image: url('assets/images/slider_bg.png')">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-10 col-lg-6">
+                                    <h1>Welcome to the world of kantoka 2</h1>
+                                    <h4>Something for Everyone</h4>
+                                    <a href="#" class="btn">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="assets/images/slider.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="down-arrow"><img src="assets/images/down-arow.png" alt=""></a>
+            
+        </div>
+    </div>
+
+
+    <!-- Home page one stop shop section -->
+    <section class="one-stop-shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 offset-md-1">
+                    <h3 class="bb">YOUR ONE-STOP SHOP FOR CANNABIS <br> INFO & ACCESORIES</h3>
+                    <p>
+                        In a world with overwhelming options, you need something <span>quick and easy</span> so you can enjoy the finer things in life. That something is Kantoka. Simply tell us what you need. Let us do the rest.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <h3>WHAT ARE YOU <br> LOOKING FOR TODAY?</h3>
+                    <form class="form my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Enter search here ..." aria-label="Search">
+                        <button class="btn btn-block" type="submit">Search kantoka</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Home page brands section -->
+    <section class="home-brands">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center bb bblg pink">ALL THE BEST BRANDS IN ONE PLACE</h3>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="brands-item" style="background-image: url('https://via.placeholder.com/400x400')">
+                        <div class="brands-item-content">
+                            <h4>Brands name goes here</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brands-item" style="background-image: url('https://via.placeholder.com/400x400')">
+                        <div class="brands-item-content">
+                            <h4>Brands name goes here</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brands-item" style="background-image: url('https://via.placeholder.com/400x400')">
+                        <div class="brands-item-content">
+                            <h4>Brands name goes here</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brands-item" style="background-image: url('https://via.placeholder.com/400x400')">
+                        <div class="brands-item-content">
+                            <h4>Brands name goes here</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brands-item" style="background-image: url('https://via.placeholder.com/400x400')">
+                        <div class="brands-item-content">
+                            <h4>Brands name goes here</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brands-item" style="background-image: url('https://via.placeholder.com/400x400')">
+                        <div class="brands-item-content">
+                            <h4>Brands name goes here</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="btn">See More Brands</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Home Feature table -->
+    <section class="feature-table">
+        <div class="feature-table-container">
+
+            <div class="feature-table-item" style="background-image: url('assets/images/feature-table-item-1-bg.png')">
+                <div class="feature-table-content text-center">
+                    <img src="assets/images/icon-shop.png" alt="">
+                    <h2 class="bb black text-center">HIGH-STYLE LUXURY RETAIL</h2>
+                    <p>
+                        If passion is what ignites you, purpose is how you serve others. With social responsibility at our core, we are committed to serving our communities with safe, legal and compliant content and products.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature-table-item" style="background-image: url('assets/images/feature-table-item-3-bg.png')">
+                <div class="feature-table-content text-center">
+                    <img src="assets/images/icon-desktop.png" alt="">
+                    <h2 class="bb black text-center">SOCIAL RESPONSIBILITY</h2>
+                    <p>
+                        If passion is what ignites you, purpose is how you serve others. With social responsibility at our core, we are committed to serving our communities with safe, legal and compliant content and products.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature-table-item" style="background-image: url('assets/images/feature-table-item-3-bg.png')">
+                <div class="feature-table-content text-center">
+                    <img src="assets/images/icon-cann.png" alt="">
+                    <h2 class="bb black text-center">BRAND AMBASSADORS</h2>
+                    <p>
+                        If passion is what ignites you, purpose is how you serve others. With social responsibility at our core, we are committed to serving our communities with safe, legal and compliant content and products.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Home where cann is meets style sec -->
+    <section class="cann-meet">
+        <div class="cann-meet-header" style="background-image: url('assets/images/cann-meet-bg.jpg');">
+            <h3 class="lslg text-center">Where cannabis meets style</h3>
+        </div>
+        <div class="kantoka-mission" style="background-image: url('assets/images/kantoka-mission-bg.jpg')">
+            <div class="kantoka-mission-content">
+                <h2 class="bb">The kantoka mission</h2>
+                <p>
+                    We believe in the positive role cannabis can have in enhancing people's lives, & our mission is to provide consumers with the most effective and reliable products on the market
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Home join circle -->
+    <section class="join-circle" style="background-image: url('assets/images/join-circle-bg.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="row">
+                        <div class="col-md-5 join-circle-content">
+                            <p>
+                                As a thank you for signing up, we'e giving away some cool products to some <span>lucky individuals.</span>
+                            </p>
+                            <form class="form my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Email Address" aria-label="Search">
+                                <button class="btn btn-block" type="submit">Join the circle</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 offset-md-1">
+                            <h1 class="join-circle-title">
+                                Join the circle
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Home Contact form -->
+    <section class="home-contact-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="bb lg text-center">Contact Us</h1>
+                    <br>
+                    <div class="contact-form">
+                        <form class="form">
+                            <div class="row">
+                                <div class="col-sm-6 offset-sm-3">
+                                    <select class="form-control custom-select">
+                                        <option selected>Tell Us Who You Are</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="form-control" type="text" placeholder="First Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="form-control" type="text" placeholder="Last Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="form-control" type="Email" placeholder="Email Address">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="form-control" type="text" placeholder="Phone Number">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea class="form-control" id="msg" placeholder="Message" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <br>
+                                    <button class="btn light" type="submit">Send It</button>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-logo">
+                        <img src="assets/images/footer-logo.png" alt="">
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms & Privacy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="footer-image-gellary">
+                        <img src="https://via.placeholder.com/180x180" alt="">
+                        <img src="https://via.placeholder.com/180x180" alt="">
+                        <img src="https://via.placeholder.com/180x180" alt="">
+                        <img src="https://via.placeholder.com/180x180" alt="">
+                        <img src="https://via.placeholder.com/180x180" alt="">
+                        <img src="https://via.placeholder.com/180x180" alt="">
+                    </div>
+                    <br>
+                    <a href="#"> See More </a>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-icon">
+                        <ul>
+                            <li><a href="#"><img src="assets/images/in.png" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/fb.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <p>
+                        <a href="mailto:info@kantoka.com">info@kantoka.com</a>
+                        <br>
+                        <a href="telto:123-456-7890">123-456-7890</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center copy_right">
+                        &copy; 2019 Kantoka LLC. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
