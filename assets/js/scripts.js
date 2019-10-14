@@ -10,5 +10,12 @@ $( document ).ready(function() {
             $('#nav-megamenu').addClass('menu-active');
         }
     })
+
+    $("#down-arrow").click(function() {
+        $('html,body').animate(
+            {scrollTop: $("#down-to-arrow").offset().top},
+            'slow'
+        );
+    });
     
 });
